@@ -13,3 +13,5 @@ elif op == 3:
     print('O número {} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
 else:
     print('Opção inválida, tente novamente!') 
+
+'''Caso não lembre, o [2:] é aquela formatação!'''
