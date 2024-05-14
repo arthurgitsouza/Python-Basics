@@ -1,5 +1,6 @@
+from datetime import date
 ano = int(input('Ano de nascimento: '))
-ano_atual = 2024
+ano_atual = date.today().year
 idade = ano_atual - ano
 print('Quem nasceu em {} tem {} anos em 2024.'.format(ano, idade))
 alistamento_menos_de_18 = 18 - idade
