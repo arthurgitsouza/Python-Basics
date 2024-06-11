@@ -47,3 +47,5 @@ elif computador == 2: # computador jogou TESOURA
         print('{}COMPUTADOR VENCEU!'.format(cores['vermelho']))
     else:
         print('JOGADA INVÁLIDA!')
+    #Jogo "JOKENPO" ou "Pedra, Papel, Tesoura" feito em python utilizando cadeia de condicionais com IF, ELIF e ELSE.
+    

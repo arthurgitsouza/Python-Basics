@@ -6,3 +6,4 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
     print('O ano de {} é BISSEXTO!'.format(ano))
 else:
     print('O ano de {} não é BISSEXTO!'.format(ano))
+#O módulo "datetime" pega a data atual para ser utilizada!! no caso do .year, o ano apenas

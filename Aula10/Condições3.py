@@ -5,4 +5,4 @@ print('Sua média foi {:.1f}!'.format(m))
 if m >= 7:
     print('Sua média foi muito boa, PARABÉNS""')
 else:
-    print('Sua média foi ruim q nem vc')
+    print('Sua média foi ruim q nem vc!')
