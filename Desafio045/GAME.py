@@ -1,3 +1,4 @@
+
 from random import randint
 from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
@@ -22,13 +23,15 @@ print('Jogador jogou {}!'.format(itens[jogador]))
 print('='*11)
 if computador == 0: # computador jogou PEDRA
     if jogador == 0:
-        print('{}EMPATE!')
+        print('EMPATE!')
     elif jogador == 1:
         print('{}JOGADOR VENCEU!'.format(cores['verde']))
     elif jogador == 2:
         print('{}COMPUTADOR VENCEU!'.format(cores['vermelho']))
+    elif jogador > 2:
+        print('JOGADA INVALIDA!')
     else:
-        print('JOGADA INVÁLIDA!')
+        print('Jogada invalida!')
 elif computador == 1: # computador jogou PAPEL
     if jogador == 1:
         print('{}EMPATE!')
@@ -36,6 +39,8 @@ elif computador == 1: # computador jogou PAPEL
         print('{}JOGADOR VENCEU!'.format(cores['verde']))
     elif jogador == 0:
         print('{}COMPUTADOR VENCEU!'.format(cores['vermelho']))
+    elif jogador > 2:
+        print('JOGADA INVALIDA!')
     else:
         print('JOGADA INVÁLIDA!')
 elif computador == 2: # computador jogou TESOURA
@@ -45,5 +50,7 @@ elif computador == 2: # computador jogou TESOURA
         print('{}JOGADOR VENCEU!'.format(cores['verde']))
     elif jogador == 1:
         print('{}COMPUTADOR VENCEU!'.format(cores['vermelho']))
+    elif jogador > 2:
+        print('JOGADA INVALIDA!')
     else:
         print('JOGADA INVÁLIDA!')
