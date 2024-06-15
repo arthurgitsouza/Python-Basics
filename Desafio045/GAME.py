@@ -54,3 +54,5 @@ elif computador == 2: # computador jogou TESOURA
         print('JOGADA INVALIDA!')
     else:
         print('JOGADA INVÁLIDA!')
+    #Jogo "JOKENPO" ou "Pedra, Papel, Tesoura" feito em python utilizando cadeia de condicionais com IF, ELIF e ELSE.
+    

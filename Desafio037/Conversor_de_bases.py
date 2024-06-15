@@ -10,7 +10,7 @@ if op == 1:
 elif op == 2:
     print('O número {} convertido para OCTAL é igual a {}'.format(num, oct(num)[2:]))
 elif op == 3:
-    print('O número {} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
+    print('O número {} convertido para OCTAL é igual a {}'.format(num, hex(num)[2:]))
 else:
     print('Opção inválida, tente novamente!') 
 
