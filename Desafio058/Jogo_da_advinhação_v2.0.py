@@ -7,6 +7,7 @@ print('\nE eu acabei de pensar em um número entre 0 e 10!!!')
 sleep(3)
 print('\nSerá que você consegue advinhar qual foi?')
 numero_sorteado = randint(0, 10)
+print(numero_sorteado)
 num = int(input('Qual é o seu palpite?? '))
 while num != numero_sorteado:
     conttentativas += 1

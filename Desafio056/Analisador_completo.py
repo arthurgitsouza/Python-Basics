@@ -1,7 +1,7 @@
 import pygame
 pygame.mixer.init()
 
-'''somaidade = 0
+somaidade = 0
 maisvelho = 0
 maisvelho_nome = ''
 totmulher = 0
@@ -26,7 +26,7 @@ media1 = somaidade / 4
 
 print('A média de idade do grupo é de {} anos!'.format(media1))
 print('O homem mais velho tem {} anos e se chama {}'.format(maisvelho, maisvelho_nome))
-print('Existem {} mulheres com idade inferior a 20 anos na lista!'.format(totmulher))'''
+print('Existem {} mulheres com idade inferior a 20 anos na lista!'.format(totmulher))
 
 pygame.mixer.music.load('ele-fezz-de-novo-incansavel.mp3')  
 pygame.mixer.music.play()
