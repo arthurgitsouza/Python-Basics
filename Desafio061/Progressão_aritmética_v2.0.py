@@ -1,11 +1,9 @@
-print('Gerador de PA')
-print('-='*10)
-pt = int(input('Primeiro termo: '))
-razao = int(input('Razão da PA: '))
-termo = pt
-cont = 1
-while cont <= 10:
-    print('{}'.format(termo), end = '')
-    termo += razao #termo = termo + razao
-    cont =+ 1
-print('FIM!')
+termo = int(input('Qual o 1° termo: '))
+razao = int(input('Qual a razão: '))
+c = 10
+print(f'A PA de {termo} é:', end='')
+while c > 0:
+    print(f"{termo} > ", end="")
+    termo += razao
+    c -= 1
+print('Acabou!')
