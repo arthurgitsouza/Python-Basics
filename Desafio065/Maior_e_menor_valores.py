@@ -1,8 +1,9 @@
-pergunta = n = cont = soma = 0
-while pergunta != 'S' or 'N':
+pergunta = 'S'
+soma = cont = media = 0
+while pergunta in 'S':
     n = int(input('Digite um número: '))
-    pergunta = str(input('Quer continuar: [S/N]')).upper().strip()
     soma += n
-    cont =+ 1
-    media = (soma/cont)
-print(f'Você digitou {cont} números e a media foi {soma}.')
+    cont += 1 
+    pergunta = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
+    media = soma/cont
+print(f'Você digitou {cont} números e a média entre eles é: {media:.2f}')
