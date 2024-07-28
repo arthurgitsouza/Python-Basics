@@ -1,0 +1,15 @@
+a = [0, 1, 2, 3]
+b = a
+b[2] = 9 #Quando faço isso em uma lista que está ligada a outra eu acabo mudando nos 2.
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
+
+print('-'*20)
+
+
+#Forma de criar uma cópia de uma lista, impossibilitando que isso aconteça:
+a = [0, 1, 2, 3]
+b = a[:]
+b[2] = 9 
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
