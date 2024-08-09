@@ -3,8 +3,8 @@ from time import sleep
 def contagem(i, f, p): # i = inicio, f = fim, p = passos
     print('-=' * 20)
     print(f'Contagem de {i} até {f} de {p} em {p}')
-    if p == -p:
-        p = +p
+    if p == 0:
+        p = 1
     if i > f:
         for cont in range(i, f-1, -p): # O '-' no p serve para que os passos sejam feitos em forma negativa, ou seja, de trás para frente
             print(f'{cont} ', end='', flush=True)

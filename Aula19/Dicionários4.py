@@ -6,4 +6,5 @@ Brasil.append(estado2)
 print(Brasil) #Criou uma lista com dois dicionários dentro da lista
 print(Brasil[0])#Pegou o dicionário que a lista continha no valor 0
 print(Brasil[1])#Pegou o dicionário que a lista continha no valor 1
-print(Brasil[1]['uf'])
+print('-'*30)
+print(Brasil[1]['uf']) #Pega o dicionário do valor 1, no valor determinado para o uf.

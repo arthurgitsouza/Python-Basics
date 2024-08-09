@@ -15,3 +15,5 @@ def contador(i, f, p):
     
     
 help(contador)
+
+# Você pode criar sua própria documentação sobre sua função para uma outra pessoa que pegar o seu código!

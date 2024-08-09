@@ -7,4 +7,4 @@ print('  Controle de Terrenos')
 print('-'*30)
 lag = float(input('LARGURA (m): '))
 comp = float(input('COMPRIMENTO (m): '))
-area(lag, comp)
+area(lag, comp) #Os parâmetros l e c são substituidos pelas variáveis lag e comp no calculo.

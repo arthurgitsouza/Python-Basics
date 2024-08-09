@@ -12,4 +12,5 @@ while True:
         op = str(input('Quer continuar? [S/N] ')).strip()[0]
     if op in 'Nn':
         break
-print(f'Você digitou os valores {sorted(valores)}')
+valores.sort() #colocar em ordem!
+print(f'Você digitou os valores {valores}')

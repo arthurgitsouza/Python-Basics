@@ -4,8 +4,7 @@ print('VAMOS JOGAR PAR OU IMPAR!')
 print('-'*30)
 computador = randint(0,10)
 cont = 0
-print(computador)
-'''while True:
+while True:
     jogador = int(input('Diga um valor: '))
     decisao = str(input('Par ou Impar? [P/I]')).strip().upper()
     total = jogador + computador
@@ -18,4 +17,6 @@ print(computador)
         print(f'{total} é impar, então...')
         print('Você PERDEU!')
         print(f'GAME OVER! e Você venceu apenas {cont} vezes.')
-        break'''
+        break
+
+#finalizei muito feliz e com muita empolgação para continuar no próximo mundo!!!! 23/07/2024

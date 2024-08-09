@@ -28,4 +28,4 @@ while True:
         print(f'As notas de {lista[op][0]} são {lista[op][1]} e {lista[op][2]}')
     else:
         print('Índice inválido.')
-    
+print('<<<VOLTE SEMPRE HEINN!!>>>')

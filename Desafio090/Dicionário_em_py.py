@@ -15,3 +15,4 @@ print(f'Situação é igual a {resultado["situação"]}')'''
 #utilizando o for para esse print:
 for k, v in resultado.items(): #Para cada keys e value na biblioteca resultados:
     print(f' - {k} é igual a {v}') #print a key e o valor para cada item dentro da biblioteca resultado.
+print('-='*40)

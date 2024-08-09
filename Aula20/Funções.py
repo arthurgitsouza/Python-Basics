@@ -1,6 +1,7 @@
-def lin():
+def lin(): 
     print('-'*30)
-    
+
+#Programa principal!
 lin()
 print('       CURSO EM VIDEO    ')
 lin()

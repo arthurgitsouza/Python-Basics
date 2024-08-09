@@ -21,11 +21,11 @@ while True:
         break
 print('-'*30)
 print(f'Ao todo, você cadastrou {len(pessoas_cadastradas)} pessoas.')
-print(f'O maior peso foi de {max_peso}. O peso de ',  end = '')
+print(f'O maior peso foi de {max_peso}. O peso de ')
 for p in pessoas_cadastradas:
     if p[1] == max_peso:
         print(f'{p[0]}')
-print(f'O menor peso foi de {min_peso}. O peso de ', end = ' ')
+print(f'O menor peso foi de {min_peso}. O peso de ')
 for p in pessoas_cadastradas:
     if p[1] == min_peso:
         print(f'{p[0]}', )

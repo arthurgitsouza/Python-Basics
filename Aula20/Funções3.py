@@ -7,4 +7,3 @@ def soma(a, b):
 soma(4,5)
 soma(9,10)
 soma(5,7)
-

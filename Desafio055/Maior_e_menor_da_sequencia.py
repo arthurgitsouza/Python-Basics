@@ -2,7 +2,7 @@ maiorpeso = 0
 menorpeso = 0
 for pess in range(1, 6):
     p = float(input('Peso da {}ª pessoa: '.format(pess)))
-    if p == 1:
+    if pess == 1:
         maiorpeso = pess
         menorpeso = pess
     else:

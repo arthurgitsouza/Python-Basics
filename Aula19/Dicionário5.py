@@ -10,4 +10,3 @@ print('-'*30)
 for e in brasil: #Para cada dicionário de estado na lista brasil:
     for k, v in e.items(): #Para cada chave e valores em itens de e (que foram os estados colocados)
         print(f'O campo {k} tem valor {v}')
-        print(v, end = '')
