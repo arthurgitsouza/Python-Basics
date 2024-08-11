@@ -19,7 +19,7 @@ while True:
         op = str(input('Quer continuar? [S/N]')).strip()[0]
     if op in 'Nn':
         break
-print(f'O total da compra foi {total_gasto}.')
+print(f'O total da compra foi {total_gasto:.2f}.')
 print(f'Temos {preço_maior_1000} produtos custando mais de R$1000.00')
 print(f'O produto mais barato é o {produto_barato} custa R${menor:.2f}')
 

@@ -16,3 +16,4 @@ for posicao in range(0, len(listagem)):
     else:
         print(f'R${listagem[posicao]:>7.2f}')
 print('-'*40)
+#Estou pedindo socorro!

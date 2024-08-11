@@ -26,6 +26,6 @@ while True:
     print('-'*20)
 print(f'Total de pessoas com mais de 18 anos: {total18}.')
 print(f'Ao todo temos {total_de_homens} homens cadastrados.')
-print(f'E temos {mulheres_menos_20} com menos de 20 anos.')
+print(f'E temos {mulheres_menos_20} mulheres com menos de 20 anos.')
 
 
